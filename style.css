@@ -1,0 +1,5 @@
+.arkaplan {
+    background-color: red; /* Arka planı kırmızı yapar */
+    width: 100vw; /* Tüm ekran genişliği */
+    height: 100vh; /* Tüm ekran yüksekliği */
+}
