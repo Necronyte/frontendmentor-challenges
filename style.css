@@ -1,5 +1,13 @@
+/* Sayfa genelindeki margin ve padding’i sıfırlıyoruz */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Kutuların sınırları sayılmasın */
+}
+
 .arkaplan {
-    background-color: red; /* Arka planı kırmızı yapar */
+    background-color: hsl(218, 44%, 22%); /* Arka planı kırmızı yapar */
     width: 100vw; /* Tüm ekran genişliği */
     height: 100vh; /* Tüm ekran yüksekliği */
 }
+
