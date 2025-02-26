@@ -1,4 +1,11 @@
 /* Sayfa genelindeki margin ve padding’i sıfırlıyoruz */
+body{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +13,31 @@
 }
 
 .arkaplan {
-    background-color: hsl(218, 44%, 22%); /* Arka planı kırmızı yapar */
-    width: 100vw; /* Tüm ekran genişliği */
-    height: 100vh; /* Tüm ekran yüksekliği */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
 }
 
+.merkez{
+    width: 350px;  /* Genişliği artırdım */
+    height: 500px; /* Yüksekliği artırdım */
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.qrkod{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.paragraf{
+    font-size: 15px;
+    margin-top: 10%;
+    color: hsl(216, 15%, 48%);
+}
